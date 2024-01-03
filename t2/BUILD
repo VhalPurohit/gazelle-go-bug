@@ -15,5 +15,5 @@ go_library(
     srcs = ["main.go"],
     importpath = "bitbucket.org/non_existent/non_existent",
     visibility = ["//visibility:private"],
-    deps = ["@com_google_cloud_go//storage"],
+    deps = ["@com_google_cloud_go_storage//:storage"],
 )
