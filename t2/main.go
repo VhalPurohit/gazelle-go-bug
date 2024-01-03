@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"cloud.google.com/go/storage"
+	_ "cloud.google.com/go/storage"
 )
 
 
